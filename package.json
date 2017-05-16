@@ -1,0 +1,16 @@
+{
+  "name": "dns-relay",
+  "version": "1.0.1",
+  "description": "dns-relay is a debug tool. It pretends itself a DNS server and reply requests with pre-defined IP address.",
+  "private": true,
+  "main": "dnsd.js",
+  "scripts": {
+    "start": "node dnsd.js"
+  },
+  "author": "Chad Hsu",
+  "license": "MIT",
+  "dependencies": {
+    "dnsd": "^0.9.6",
+    "native-dns": "^0.7.0"
+  }
+}
